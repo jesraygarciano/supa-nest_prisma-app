@@ -9,7 +9,7 @@ export class TodosService {
     return await prisma.todo.create({
       data: {
         title,
-        is_complete: false,
+        isComplete: false,
       },
     });
   }
